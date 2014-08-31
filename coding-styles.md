@@ -5,7 +5,7 @@
     - [Audience and prerequisites](#audience-and-prerequisites)
     - [Why should we care?](#why-should-we-care)
 - **Section 2: Guidelines**
-    - [Stylish Code](#stylish-code)
+    - [Coding Styles](#coding-styles)
     - [Naming Conventions](#naming-conventions)
 
 ### What is this document?
@@ -30,7 +30,7 @@ the development workflow and the deployment process at Demac Media.
 ## Guidelines
 
 
-### Stylish Code
+### Coding Styles
 
 
 ### Naming Conventions

@@ -1,7 +1,7 @@
 # Demac Media Coding Guide
 
 ## [Coding Standards](coding-standards.md)
-- **Section 1: Coding Standards**
+- **Section 1: About This Document**
   - [What is this document?](coding-standards.md#what-is-this-document)
   - [Why should we care?](coding-standards.md#why-should-we-care)
   - [Audience and prerequisites](coding-standards.md#audience-and-prerequisites)
@@ -19,12 +19,12 @@
 ---
 
 ## [Coding Styles](coding-styles.md)
-- **Section 1: Coding Styles**
+- **Section 1: About This Document**
   - [What is this document?](coding-styles.md#what-is-this-document)
   - [Why should we care?](coding-styles.md#why-should-we-care)
   - [Audience and prerequisites](coding-styles.md#audience-and-prerequisites)
 - **Section 2: Guidelines**
-  - [Stylish Code](#stylish-code)
+  - [Coding Styles](#coding-styles)
   - [Naming Conventions](#naming-conventions)
 
 ---
