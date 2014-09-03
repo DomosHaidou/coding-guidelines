@@ -345,4 +345,25 @@ The main idea behind this pattern is to encapsulate the Magento specific code
 inside an adapter class, making it testable and not as tightly couple to the
 base Magento code.
 
+Take a look at the following class: 
 
+```php
+<?php
+
+/**
+ * Class Demac_Chase_Model_Paymentech_Api_Adapter_Abstract
+ *
+ * This class contains the generic methods for any chase api adapter, specifically methods
+ * that are relate to pulling information and values from the configuration.
+ */
+class Demac_Chase_Model_Paymentech_Api_Adapter_Abstract extends Mage_Core_Model_Abstract
+{
+...
+    protected function getConfig($field, $storeId=null)
+    {
+        $path = 'payment/'.$this->_code.'/'.$field;
+        return Mage::getStoreConfig($path, $storeId);
+    }
+...
+
+```
