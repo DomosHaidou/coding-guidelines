@@ -326,15 +326,23 @@ write clean and maintainable code.
 
 [//]: # (Describe the adapter pattern first introduced by james cowie and demonstrated in the chase extension)
 
-[//]: # (Insert standard definition of the adapter pattern)
+> In software engineering, the adapter pattern is a software design pattern
+> that allows the interface of an existing class to be used from another
+> interface. It is often used to make existing classes work with others
+> without modifying their source code. [Source:
+> Wikipedia](http://en.wikipedia.org/wiki/Adapter_pattern)
 
 There are multiple ways we can make use of the adapter pattern, from writing an
 api wrapper that can be used by our extensions to separating the Magento
 specific logic for our extension code.
 
-The **Magento Adapter Pattern** was first introduced to me by [James Cowie]();
+The **Magento Adapter Pattern** was first introduced to me by [James
+Cowie](http://jcowie.co.uk/);
 and it provides an easy and simple way to decouple our extension code from the
 Magento core code.
 
 The main idea behind this pattern is to encapsulate the Magento specific code
-inside an adapter class.
+inside an adapter class, making it testable and not as tightly couple to the
+base Magento code.
+
+
