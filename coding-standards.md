@@ -319,9 +319,22 @@ having to modify that, by simply overloading the original class.
 
 ## Design Patterns
 
+On this section we are going to review useful patterns that can help developers
+write clean and maintainable code.
+
 ### Adapter Pattern
 
 [//]: # (Describe the adapter pattern first introduced by james cowie and demonstrated in the chase extension)
 
+[//]: # (Insert standard definition of the adapter pattern)
 
+There are multiple ways we can make use of the adapter pattern, from writing an
+api wrapper that can be used by our extensions to separating the Magento
+specific logic for our extension code.
 
+The **Magento Adapter Pattern** was first introduced to me by [James Cowie]();
+and it provides an easy and simple way to decouple our extension code from the
+Magento core code.
+
+The main idea behind this pattern is to encapsulate the Magento specific code
+inside an adapter class.
