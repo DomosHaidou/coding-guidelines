@@ -332,6 +332,14 @@ write clean and maintainable code.
 > without modifying their source code. [Source:
 > Wikipedia](http://en.wikipedia.org/wiki/Adapter_pattern)
 
+#### Intent
+
+The Adapter pattern mains goals are:
+
+- Wrap an existing class with a new interface.
+- Match and old component to a new system.
+- Convert the interface of a class into a another interface the client expects.
+
 There are multiple ways we can make use of the adapter pattern, from writing an
 api wrapper that can be used by our extensions to separating the Magento
 specific logic for our extension code.
@@ -367,3 +375,5 @@ class Demac_Chase_Model_Paymentech_Api_Adapter_Abstract extends Mage_Core_Model_
 ...
 
 ```
+
+
